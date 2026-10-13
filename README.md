@@ -13,6 +13,7 @@ Continue from the previous PHP/MySQL Resume Lab. Student target: manage the `ski
 - Task 2 (SELECT + UPDATE): `skill_edit.php` TODO 2a/2b, change level and verify the new value.
 - Task 3 (DELETE): `skill_delete.php` TODO 3, delete one practice record and verify it disappears.
 - Task 4: explain why UPDATE and DELETE require WHERE. Demonstrate parameter binding.
+'คำสั่ง UPDATE และ DELETE เป็นการจำกัดขอบเขต ให้ระบบทำการแก้ไขหรือลบเฉพาะแถวข้อมูลที่ตรงกับ id ของรายการนั้นๆ และเป็นของ profile_id ของผู้ใช้งานคนนั้นจริง เพื่อป้องกันไม่ให้ข้อมูลของผู้อื่นถูกแก้ไขหรือลบโดยไม่ตั้งใจ'
 - Task 5: Git workflow: create feature branch, commit SQL completion, push to GitHub (NO secrets), submit repository URL and screenshots.
 
 ## SQL mapping hints
